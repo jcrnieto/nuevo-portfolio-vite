@@ -1,14 +1,12 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Scrollbar, A11y } from 'swiper/modules';
-//Autoplay, Mousewheel
+
 import './slider.css';
 import "keen-slider/keen-slider.min.css";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-// import 'swiper/css/autoplay';
-// import 'swiper/css/mousewheel';
 
 
 function Sliders({ slidesInfo }) {
