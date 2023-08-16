@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 
 import './slider.css';
 import 'swiper/css';
@@ -16,13 +16,16 @@ function Sliders({ slidesInfo }) {
       </div>
       <div className="sliders-container">
         <Swiper
-          modules={[Navigation, Scrollbar, A11y]}
+          modules={[Navigation, Scrollbar, A11y, Autoplay]}
           spaceBetween={1}
           slidesPerView={1}
           navigation
           scrollbar={{ draggable: true }}
-          // onSlideChange={() => console.log('slide change')}
-          // onSwiper={(swiper) => console.log(swiper)}
+          loop={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
         >
           {
             slidesInfo.map((slide) => (
