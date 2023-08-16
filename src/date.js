@@ -53,6 +53,21 @@
       src: "https://firebasestorage.googleapis.com/v0/b/imagenes-placeressintacc.appspot.com/o/4.png?alt=media&token=7b335106-7701-47ad-a481-6c6abc95b1a7",
       alt: "proyecto11",
       desc: "https://fundacion-uno.vercel.app/"
+    },
+    {
+      src: "https://firebasestorage.googleapis.com/v0/b/imagenes-placeressintacc.appspot.com/o/7.png?alt=media&token=748ced5c-5717-486f-9523-5677a1dd0c9b",
+      alt: "proyecto12",
+      desc: "https://proyecto-cabania.vercel.app/"
+    },
+    {
+      src: "https://firebasestorage.googleapis.com/v0/b/imagenes-placeressintacc.appspot.com/o/8.png?alt=media&token=4a0fa1c0-c807-49bf-981d-5554e5addc61",
+      alt: "proyecto13",
+      desc: "https://proyecto-cabania.vercel.app/"
+    },
+    {
+      src: "https://firebasestorage.googleapis.com/v0/b/imagenes-placeressintacc.appspot.com/o/9.png?alt=media&token=47b4d719-91d5-45c8-b0ca-0590c933a561",
+      alt: "proyecto14",
+      desc: "https://proyecto-cabania.vercel.app/"
     }
   ]
 
