@@ -100,10 +100,12 @@
         width: auto;
      }
 
+     .container-img{
+        margin: 10px;
+     }
+
      .img-cv{
-        width: 50pxpx;
-        height: 220px;
-        object-fit: cover;
+      
     }
 
     .container-cards{

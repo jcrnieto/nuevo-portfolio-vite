@@ -216,4 +216,10 @@
   .inputBox1 input:focus~span {
     transform: translateX(100px) translateY(-15px);
   }
+
+  .inputBox textarea:valid~span,
+  .inputBox textarea:focus~span {
+    transform: translateX(100px) translateY(-80px);
+    padding: 5px 10px;
+  }
  }
