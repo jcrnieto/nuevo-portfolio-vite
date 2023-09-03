@@ -1,0 +1,10 @@
+.container-portfolio{
+    flex-direction: column;
+    width: auto;
+    margin: 20px;
+}
+
+.title-portfolio{
+   text-align: center;
+   font-size: 60px;
+}
