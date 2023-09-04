@@ -30,7 +30,7 @@
 @media (max-width: 768px){
   .navbar {
     position: relative;
-    background-color: #333;
+    background-color: #427bc9;
   }
    
   .menu-items {
@@ -39,7 +39,7 @@
     top: 100%; 
     left: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #427bc9;
     padding: 10px;
     list-style: none;
     
