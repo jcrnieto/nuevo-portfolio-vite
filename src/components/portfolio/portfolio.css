@@ -1,7 +1,7 @@
 .container-portfolio{
     flex-direction: column;
-    width: auto;
-    margin: 20px;
+    width: 100%;
+    background: #e3e3e3; 
 }
 
 .title-portfolio{
