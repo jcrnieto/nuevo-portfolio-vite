@@ -3,6 +3,7 @@ import fotoPerfil from "../../media/fotoPerfil.jpg";
 import CV from '../../media/CV.pdf';
 import { saveAs } from 'file-saver';
 import Cards from "../cards/Cards";
+import img from "../../media/img-about.jpeg" 
 
 function About() {
   const handleDownload = () => {

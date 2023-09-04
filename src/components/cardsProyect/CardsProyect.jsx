@@ -18,7 +18,9 @@ const CardsProyect = () => {
                                 <p className="description">{proyect.description}</p>
                            </div>
                         </div>
+                        <button className='button'>
                         <a href={proyect.url} target="_blank" className='link-proyect'>Ver Proyecto</a> 
+                        </button>
                     </div>
                 ))
             }
