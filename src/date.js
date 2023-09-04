@@ -45,28 +45,28 @@ export const cardProyect = [
   {
     id:1,
     proyect:"Placeres Sin Tacc",
-    description:"Proyecto en desarrollo. Placeres Sin Tacc es una empresa que se dedica a la elaboración de productos libres de gluten. El mismo está desarrollado con Node, Express en Backend. La base de datos es Postgres y prisma. Para convertir una imagen en url y guardarlas uso Firebase. El Frontend lo estoy desarrollando con React y para los estilos el framework bootstrap",
+    description:"Proyecto en desarrollo. Placeres Sin Tacc es una empresa que se dedica a la elaboración de productos libres de gluten. El mismo está desarrollado con Node, Express en Backend. La base de datos es Postgres y Prisma. Para convertir una imagen en url y guardarlas uso Firebase. El Frontend lo estoy desarrollando con React y para los estilos el framework bootstrap.",
     url:"https://frontend-placeressintacc.vercel.app/",
     img:placares
   },
   {
     id:2,
     proyect:"Fundación Uno",
-    description:"Es un proyecto para una fundación la cual ayuda a merenderos, escuelitas de futbol y tiene una orientación a la concientización sobre el medio ambiente y el bien estar en general. El desarrollo está echo con React, Bootstrap y CSS. Utilizo Nodemailer para mandar los datos del formulario hacia la casilla de correo",
+    description:"Es un proyecto para una fundación que ayuda a merenderos, escuelitas de fútbol y tiene una orientación a la concientización sobre el medio ambiente y el bienestar en general. El desarrollo está realizado con React, Bootstrap y CSS. Utilizo Nodemailer para mandar los datos del formulario hacia la casilla de correo.",
     url:"fundacionuno.com.ar",
     img:fundacion
   },
   {
     id:3,
     proyect:"Cabañas Balcón del Río",
-    description:"Es un proyecto realizado para un cliente que tiene una cabaña de alquiler en las sierras de Córdoba. El mismo lo quiere para adjuntarlo en sus redes sociales como así también en páginas de turismo. Está echo con React-Vite. para lo estilos usé styled-component. Utilizé algunas librerías como react-hook-form para el control del formulario, leaflet para adjuntar la ubicación del mapa donde se encuentra ubicada la cabaña y swiper para hacer el carrousel de fotos del lugar",
+    description:"Es un proyecto realizado para un cliente que tiene una cabaña de alquiler en las sierras de Córdoba. El mismo lo quiere para adjuntarlo en sus redes sociales como así también en páginas de turismo. Está realizado con React-Vite. Para lo estilos usé styled-component. Utilizé algunas librerías como react-hook-form para el control del formulario, leaflet para adjuntar la ubicación del mapa donde se encuentra ubicada la cabaña y swiper para hacer el carrusel de fotos del lugar.",
     url:"https://proyecto-cabania.vercel.app/",
     img:cabania
   },
   {
     id:4,
     proyect:"Recetas",
-    description:"Desarrollo de una Single Page Application (SPA) utilizando React para el Front-End y Redux como state management.Todos los componentes fueron desarrollados con CSS sin uso de librerías externas. El backend esta echo con java-springboot. Es el mismo front que el proyecto food-APP. Solo se modificó el backend para un trabajo practicofinal para la academia ayi-group. Features del proyecto: Caché de búsquedas, ordenamientos y filtros",
+    description:"Desarrollé para el bootcamp Henry, una Single Page Application la cual consume información de una api externa (Spoonacular),como también de una base de datos. Las funcionalidades que ofrecen son: búsqueda por nombre, crear tu propia receta mediante un formulario controlado y filtrados: por tipo de dietas, alfabéticamente A a Z y viceversa y por puntuación",
     url:"https://integrador-ayi-react.vercel.app/",
     img:fundacion
   }

@@ -35,7 +35,7 @@
         content: '';
         position: absolute;
         width: 100px;
-        background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+        background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(41, 109, 197));
         height: 130%;
         animation: rotBGimg 3s linear infinite;
         transition: all 0.2s linear;
@@ -54,7 +54,7 @@
 .icon-container::after {
     content: '';
     position: absolute;
-    background: #07182E;
+    background: #010305;
     ;
     inset: 5px;
     border-radius: 15px;

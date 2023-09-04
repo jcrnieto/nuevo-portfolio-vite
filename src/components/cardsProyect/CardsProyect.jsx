@@ -1,9 +1,8 @@
 import './cardsProyect.css';
 import { cardProyect } from "../../date";
 
-//style={{ backgroundImage: `url(${proyect.img})` }}
 const CardsProyect = () => {
-    //console.log('card', cardProyect)
+    
     return (
         <div className="container-proyects">
             {
