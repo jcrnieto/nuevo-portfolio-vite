@@ -53,7 +53,7 @@ export const cardProyect = [
     id:2,
     proyect:"Fundación Uno",
     description:"Es un proyecto para una fundación que ayuda a merenderos, escuelitas de fútbol y tiene una orientación a la concientización sobre el medio ambiente y el bienestar en general. El desarrollo está realizado con React, Bootstrap y CSS. Utilizo Nodemailer para mandar los datos del formulario hacia la casilla de correo.",
-    url:"fundacionuno.com.ar",
+    url:"https://fundacion-uno.vercel.app/",
     img:fundacion
   },
   {

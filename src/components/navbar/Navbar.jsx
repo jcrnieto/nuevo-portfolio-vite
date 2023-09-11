@@ -6,6 +6,7 @@ import {GrClose} from 'react-icons/gr';
 function Navbar() {
 
   const [menuOpen, setMenuOpen] = useState(false);
+  
 
   const handleScroll = (event, targetId) => {
     event.preventDefault();
