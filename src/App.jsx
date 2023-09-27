@@ -1,5 +1,6 @@
 //import React, {useState, useEffect} from 'react';
 import './App.css';
+//import ComponentePrueba from './components/ComponentePrueba';
 import About from './components/about/About';
 import Cover from './components/cover/Cover';
 import Footer from './components/footer/Footer';
@@ -19,6 +20,7 @@ function App() {
      <Skills/>
      <Portfolio/>
      <Form/>
+     {/* <ComponentePrueba/> */}
      <Footer/>
     </div>
   );

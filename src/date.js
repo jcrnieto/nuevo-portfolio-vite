@@ -2,6 +2,8 @@ import cabania from "./media/cabaña.png";
 import placares from "./media/foto-placeres.png";
 import fundacion from "./media/img-fundacion.jpg";
 import recetas from "./media/img-recetas.png";
+import alarma from "./media/alarma.jpg";
+
 export const dateIcons = [
   {
     id:1,
@@ -69,6 +71,13 @@ export const cardProyect = [
     description:"Desarrollé para el bootcamp Henry, una Single Page Application la cual consume información de una api externa (Spoonacular),como también de una base de datos. Las funcionalidades que ofrecen son: búsqueda por nombre, crear tu propia receta mediante un formulario controlado y filtrados: por tipo de dietas, alfabéticamente A a Z y viceversa y por puntuación",
     url:"https://integrador-ayi-react.vercel.app/",
     img:recetas
+  },
+  {
+    id:5,
+    proyect:"Venta de Alarmas",
+    description:"Actualmente me encuentro trabajando en dicho proyecto. El frontend está realizado con React y el backend con Node y Express",
+    url:"https://proyecto-alarma.vercel.app/",
+    img:alarma
   }
 ]
 
