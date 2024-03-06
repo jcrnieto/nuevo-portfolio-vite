@@ -61,3 +61,11 @@
     inset: 5px;
     border-radius: 15px;
   }  
+
+
+  @media(max-width: 768px) {
+    .title-skills{
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }

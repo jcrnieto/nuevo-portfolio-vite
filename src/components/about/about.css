@@ -110,12 +110,13 @@
         margin: 10px;
      }
 
-     .img-cv{
-      
-    }
-
+    
     .container-cards{
        width: auto;
        margin: 10px;
+    }
+
+    .button-cv {
+      margin-bottom: 10px;
     }
 }

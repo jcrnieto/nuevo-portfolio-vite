@@ -7,38 +7,47 @@ import alarma from "./media/alarma.jpg";
 export const dateIcons = [
   {
     id:1,
+    title:"React",
     img:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" 
   },
   {
     id:2,
+    title:"Redux",
     img:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
   },
   {
     id:3,
+    title:"CSS3",
     img:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
   },
   {
     id:4,
+    title:"HTML",
     img:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
   },
   {
     id:5,
+    title:"Material UI",
     img:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
   },
   {
     id:6,
+    title:"Node",
     img:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
   },
   {
     id:7,
+    title:"postgres",
     img:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
   },
   {
     id:8,
+    title:"Sequelize",
     img:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg"
   },
   {
     id:9,
+    title:"Bootstrap",
     img:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" 
   }
 ]
