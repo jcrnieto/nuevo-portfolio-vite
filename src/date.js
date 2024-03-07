@@ -27,7 +27,7 @@ export const dateIcons = [
   },
   {
     id:5,
-    title:"Material UI",
+    title:"UI",
     img:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
   },
   {

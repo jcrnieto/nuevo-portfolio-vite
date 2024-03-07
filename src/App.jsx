@@ -17,8 +17,8 @@ function App() {
      <Navbar/>
      <Cover/>
      <About/>
-     <Skills/>
      <Portfolio/>
+     <Skills/>
      <Form/>
      {/* <ComponentePrueba/> */}
      <Footer/>

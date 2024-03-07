@@ -1,18 +1,11 @@
 import './cardsProyect.css';
 import { cardProyect } from "../../date";
-import Aos from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
 
 const CardsProyect = () => {
 
-    useEffect(() => {
-        Aos.init({ duration: 2000 });
-      }, []);
-    
-    
     return (
-        <div className="container-proyects" data-aos="zoom-in">
+        <div className="container-proyects">
             {
                 cardProyect.map(proyect => (
                     <div className="card-proyect">

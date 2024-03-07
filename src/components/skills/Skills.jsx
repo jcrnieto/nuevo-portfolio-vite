@@ -1,27 +1,32 @@
 import './skills.css';
-import {dateIcons} from '../../date';
+import { dateIcons } from '../../date';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 const Skills = () => {
-    // console.log('date',dateIcons)
-    useEffect(() => {
-      Aos.init({ duration: 3000 });
-    }, []);
-  
+  // console.log('date',dateIcons)
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
+
   return (
     <div className="container-skills" id='skills'>
-        <h1 className="title-skills">Tecnologías que uso en mis proyectos</h1>
-        <div className='container-icons'>
+      <h1 className="title-skills">Tecnologías que uso en mis proyectos</h1>
+      <div className='container-icons'>
         {
-           dateIcons.map(icon => (
-              <div className='icon-container' key={icon.id} data-aos="zoom-in-up">
-                <img src={icon.img} alt="skill" className='img-icon'/>
+          dateIcons.map(icon => (
+            <div data-aos="zoom-in-up">
+              <div>
+                <h3>{icon.title}</h3>
               </div>
-           ))
+              <div className='icon-container' key={icon.id}>
+                <img src={icon.img} alt="skill" className='img-icon' />
+              </div>
+            </div>
+          ))
         }
-         </div>
+      </div>
     </div>
   )
 }
