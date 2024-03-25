@@ -15,31 +15,33 @@ const CardService = ({ service }) => {
                 <div className='specifications-service'>
                     <ul>
                         <li className='list-specifications'>
-                            <BsCheckLg />
+                            {service.dominio && <BsCheckLg />}
                             <h4>{service.dominio}</h4>
                         </li>
                         <li className='list-specifications'>
-                            <BsCheckLg />
+                            {service.certificado && <BsCheckLg />}
                             <h4>{service.certificado}</h4>
                         </li>
-                        <li className='list-specifications'>
+                        {service.secciones && (
+                          <li className='list-specifications'>
                             <BsCheckLg />
                             <h4>{service.secciones}</h4>
-                        </li>
+                          </li>
+                        )}
                         <li className='list-specifications'>
-                            <BsCheckLg />
+                            {service.ubicacion && <BsCheckLg />}
                             <h4>{service.ubicacion}</h4>
                         </li>
                         <li className='list-specifications'>
-                            <BsCheckLg />
+                            {service.responsive && <BsCheckLg />}
                             <h4>{service.responsive}</h4>
                         </li>
                         <li className='list-specifications'>
-                            <BsCheckLg />
+                            {service.contacto && <BsCheckLg />}
                             <h4>{service.contacto}</h4>
                         </li>
                         <li className='list-specifications'>
-                            <BsCheckLg />
+                            {service.hosting && <BsCheckLg />}
                             <h4>{service.hosting}</h4>
                         </li>
                         <li>
