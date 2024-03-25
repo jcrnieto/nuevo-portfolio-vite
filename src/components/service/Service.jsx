@@ -1,6 +1,7 @@
 import React from 'react';
 import CardService from '../cardService/CardService';
 import { service } from '../../date';
+import "./service.css";
 
 const Service = () => {
   return (

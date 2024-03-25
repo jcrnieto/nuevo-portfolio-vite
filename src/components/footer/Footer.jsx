@@ -21,12 +21,12 @@ function Footer() {
                         <a href=''>
                            <i className='icon-location'><ImLocation2/></i>
                         </a>
-                        <p>Córdoba-Argentina</p>
+                        <p className='text-ubication'>Córdoba-Argentina</p>
                     </div>
             </div>
 
             <div className='design-by'>
-               <p>Diseñado por Juan cruz Nieto</p>
+               <p className='text-design'>Diseñado por Juan cruz Nieto</p>
             </div>
 
             <div className="container-links">

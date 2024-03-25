@@ -20,9 +20,9 @@ function About() {
 
 
   return (
-    <div className="container-about" id='about-me' data-aos="fade-up">
+    <div className="container-about" id='about-me'>
       <h1 className="title-about"> Sobre Mí </h1>
-      <div className="container-content">
+      <div className="container-content" data-aos="fade-up">
         <div className="container-cv">
           <div className="container-img">
             <img src={fotoPerfil} alt="Imagen-CV" className="img-cv" />

@@ -1,7 +1,8 @@
 .container-skills{
     height: 100vp;
     text-align: center;
-    background: #e3e3e3;
+    /* background: #e3e3e3; */
+    background: black;
     margin-bottom: -40px;
     padding-top: 60px;
 }
@@ -23,6 +24,7 @@
 
 .title-skills{
    font-size: 50px;
+   color: white;
 }
 
 .icon-container{
@@ -36,6 +38,10 @@
     place-items: center;
     overflow: hidden;
     border-radius: 20px;
+}
+
+.skill-title{
+   color: white;
 }
 
 .icon-container::before {

@@ -11,7 +11,8 @@
     box-sizing: border-box;
     width: 1000px;
     height: 454px;
-    background: rgba(217, 217, 217, 0.58);
+    /* background: rgba(247, 250, 247, 0.58); */
+    background: #e3e3e3;;
     border: 1px solid white;
     box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
     backdrop-filter: blur(6px);

@@ -18,7 +18,7 @@ const Skills = () => {
           dateIcons.map(icon => (
             <div data-aos="zoom-in-up">
               <div>
-                <h3>{icon.title}</h3>
+                <h3 className='skill-title'>{icon.title}</h3>
               </div>
               <div className='icon-container' key={icon.id}>
                 <img src={icon.img} alt="skill" className='img-icon' />

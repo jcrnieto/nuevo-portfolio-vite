@@ -1,10 +1,13 @@
 .container-portfolio{
     flex-direction: column;
     width: 100%;
-    background: #e3e3e3; 
+    /* background: #e3e3e3;  */
+    background: black;
 }
 
 .title-portfolio{
    text-align: center;
    font-size: 60px;
+   color: white;
+   margin-top: 20px;
 }
