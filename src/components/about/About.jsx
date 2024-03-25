@@ -20,7 +20,7 @@ function About() {
 
 
   return (
-    <div className="container-about" id='about-me' data-aos="fade-up-left">
+    <div className="container-about" id='about-me' data-aos="fade-up">
       <h1 className="title-about"> Sobre Mí </h1>
       <div className="container-content">
         <div className="container-cv">

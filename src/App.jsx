@@ -7,6 +7,7 @@ import Footer from './components/footer/Footer';
 import Form from './components/form/Form';
 import Navbar from './components/navbar/Navbar.jsx'
 import Portfolio from './components/portfolio/Portfolio';
+import Service from './components/service/Service.jsx';
 import Skills from './components/skills/Skills';
 
 
@@ -17,6 +18,7 @@ function App() {
      <Navbar/>
      <Cover/>
      <About/>
+     <Service/>
      <Portfolio/>
      <Skills/>
      <Form/>

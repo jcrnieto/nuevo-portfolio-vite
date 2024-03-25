@@ -90,6 +90,33 @@ export const cardProyect = [
   }
 ]
 
+export const service = [
+  {
+    id:1,
+    title: "Landing Page",
+    description:"Una landing page, es mucho más que una simple página web. Es tu primera impresión digital, el punto de contacto inicial entre tu audiencia y tu marca. Diseñada estratégicamente para convertir visitantes en clientes, la landing page se centra en un propósito claro y acciones específicas. Puede ser la clave para captar la atención de tu audiencia, generar leads y cerrar ventas. Es una herramienta esencial en el mundo digital, donde las primeras impresiones cuentan y la experiencia del usuario es fundamental.",
+    dominio:"Dominio .com",
+    certificado:"Certificado SSL",
+    ubicacion:"Mapa de ubicación",
+    responsive:"Diseño responsive",
+    contacto:"Formulario de contacto",
+    hosting:"Web hosting premium"
+  },
+  {
+    id:2,
+    title: "Sitio Web Empresa",
+    description:"Un sitio web tipo empresa con cuatro secciones es una presencia digital más completa que va más allá de una Landing Page. Este tipo de sitio web, basado en WordPress, generalmente consta de las siguientes secciones: Inicio/Página Principal: Brinda una visión general de la empresa, sus valores y servicios destacados. Acerca de Nosotros: Ofrece información detallada sobre la historia, el equipo y la misión de la empresa. Servicios/Productos: Describe los productos o servicios ofrecidos, con detalles, imágenes y, posiblemente, testimonios. Contacto: Proporciona información de contacto, como dirección, número de teléfono y un formulario para consultas. También puede incluir enlaces a redes sociales.",
+    dominio:"Dominio .com",
+    certificado:"Certificado SSL",
+    secciones:"4 secciones",
+    ubicacion:"Mapa de ubicación",
+    responsive:"Diseño responsive",
+    contacto:"Formulario de contacto",
+    hosting:"Web hosting premium",
+    redes:"Redes sociales integradas"
+  }
+]
+
  
 
 

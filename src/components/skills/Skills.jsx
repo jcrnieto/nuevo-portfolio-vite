@@ -11,7 +11,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <div className="container-skills" id='skills'>
+    <div className="container-skills">
       <h1 className="title-skills">Tecnologías que uso en mis proyectos</h1>
       <div className='container-icons'>
         {

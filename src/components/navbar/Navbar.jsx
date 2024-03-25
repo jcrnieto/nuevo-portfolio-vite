@@ -33,7 +33,7 @@ function Navbar() {
             <a href='portfolio' onClick={(e) => { handleScroll(e, 'portfolio'); setMenuOpen(!menuOpen) }}>Portfolio</a>
           </li>
           <li>
-            <a href='skills' onClick={(e) => { handleScroll(e, 'skills'); setMenuOpen(!menuOpen) }}>Skills</a>
+            <a href='service' onClick={(e) => { handleScroll(e, 'service'); setMenuOpen(!menuOpen) }}>Skills</a>
           </li>
 
           <li>
