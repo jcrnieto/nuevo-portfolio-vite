@@ -23,10 +23,10 @@ const CardService = ({ service }) => {
                             <h4 className='items-ervice'>{service.certificado}</h4>
                         </li>
                         {service.secciones && (
-                          <li className='list-specifications'>
-                            <BsCheckLg />
-                            <h4 className='items-ervice'>{service.secciones}</h4>
-                          </li>
+                            <li className='list-specifications'>
+                                <BsCheckLg />
+                                <h4 className='items-ervice'>{service.secciones}</h4>
+                            </li>
                         )}
                         <li className='list-specifications'>
                             {service.ubicacion && <BsCheckLg />}
@@ -45,20 +45,18 @@ const CardService = ({ service }) => {
                             <h4 className='items-ervice'>{service.hosting}</h4>
                         </li>
                         <li>
-                        <a href="https://wa.me/+543516468746" target="_blank" rel="noreferrer" className='icon wattsap'>
-                          <button className='button-solicitar'>
-                          
-                            Solicitar
-                         
-                          </button>
-                          </a>
+                            <a href="https://wa.me/+543516468746" target="_blank" rel="noreferrer" className='icon wattsap'>
+                                <button className='button-solicitar'>
+                                    Solicitar
+                                </button>
+                            </a>
                         </li>
                     </ul>
-                    
-                   
+
+
                 </div>
-                
-                
+
+
             </div>
         </div>
     )

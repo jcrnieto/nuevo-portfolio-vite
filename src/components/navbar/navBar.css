@@ -51,6 +51,7 @@
   .navbar {
     position: relative;
     background: #000080;
+    z-index: 999;
   }
    
   .menu-items {
