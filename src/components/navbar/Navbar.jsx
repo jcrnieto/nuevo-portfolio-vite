@@ -43,8 +43,7 @@ function Navbar() {
 
         <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
           {menuOpen ? <GrClose /> : <AiOutlineMenu />}
-       
-      </div>
+        </div>
     </nav>
   )
 }

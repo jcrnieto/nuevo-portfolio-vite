@@ -9,6 +9,10 @@
   justify-content: space-around; 
 }
 
+.container-logo{
+  margin-top: 10px;
+}
+
 .menu-items{
    display: flex;
    align-items: center;
@@ -58,26 +62,30 @@
     background: #000080;
     padding: 10px;
     list-style: none;
-    
+    height: 320px;
   }
-   
-   .menu-icon{
+
+  .menu-icon{
       display: flex;
       justify-content: flex-end;
       padding: 20px;
       font-size: 40px;
       cursor: pointer;
-      
+      color: white;
    }
 
    .menu-items.open{
     display: block;
-   
+    
    }
 
    .img-logo{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin-top: 0px;
+   }
+
+   .container-logo{
+     margin-top: 10px;
    }
 }
