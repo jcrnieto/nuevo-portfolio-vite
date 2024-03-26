@@ -16,36 +16,42 @@ const CardService = ({ service }) => {
                     <ul>
                         <li className='list-specifications'>
                             {service.dominio && <BsCheckLg />}
-                            <h4>{service.dominio}</h4>
+                            <h4 className='items-ervice'>{service.dominio}</h4>
                         </li>
                         <li className='list-specifications'>
                             {service.certificado && <BsCheckLg />}
-                            <h4>{service.certificado}</h4>
+                            <h4 className='items-ervice'>{service.certificado}</h4>
                         </li>
                         {service.secciones && (
                           <li className='list-specifications'>
                             <BsCheckLg />
-                            <h4>{service.secciones}</h4>
+                            <h4 className='items-ervice'>{service.secciones}</h4>
                           </li>
                         )}
                         <li className='list-specifications'>
                             {service.ubicacion && <BsCheckLg />}
-                            <h4>{service.ubicacion}</h4>
+                            <h4 className='items-ervice'>{service.ubicacion}</h4>
                         </li>
                         <li className='list-specifications'>
                             {service.responsive && <BsCheckLg />}
-                            <h4>{service.responsive}</h4>
+                            <h4 className='items-ervice'>{service.responsive}</h4>
                         </li>
                         <li className='list-specifications'>
                             {service.contacto && <BsCheckLg />}
-                            <h4>{service.contacto}</h4>
+                            <h4 className='items-ervice'>{service.contacto}</h4>
                         </li>
                         <li className='list-specifications'>
                             {service.hosting && <BsCheckLg />}
-                            <h4>{service.hosting}</h4>
+                            <h4 className='items-ervice'>{service.hosting}</h4>
                         </li>
                         <li>
-                          <button className='button-solicitar'>Solicitar</button>
+                        <a href="https://wa.me/+543516468746" target="_blank" rel="noreferrer" className='icon wattsap'>
+                          <button className='button-solicitar'>
+                          
+                            Solicitar
+                         
+                          </button>
+                          </a>
                         </li>
                     </ul>
                     

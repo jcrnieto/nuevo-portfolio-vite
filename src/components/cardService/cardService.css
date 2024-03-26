@@ -101,6 +101,10 @@
     margin-bottom: 20px;
   }
 
+  .items-ervice{
+    margin-left: 10px;
+  }
+
   @media(max-width: 768px) {
 
     .card-service {
