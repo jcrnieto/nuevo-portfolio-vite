@@ -64,6 +64,7 @@
     padding: 10px;
     list-style: none;
     height: 320px;
+    
   }
 
   .menu-icon{
@@ -72,7 +73,8 @@
       padding: 20px;
       font-size: 40px;
       cursor: pointer;
-      color: white;
+      color: white ;
+      background: #000080;
    }
 
    .menu-items.open{

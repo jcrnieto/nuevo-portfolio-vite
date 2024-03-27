@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './navBar.css';
 import { AiOutlineMenu } from 'react-icons/ai';
-import { GrClose } from 'react-icons/gr';
+import { MdClose } from 'react-icons/md';
 import logo from "../../media/logo-azul.png";
 
 function Navbar() {
@@ -42,7 +42,7 @@ function Navbar() {
         </ul>
 
         <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
-          {menuOpen ? <GrClose /> : <AiOutlineMenu />}
+          {menuOpen ? <MdClose style={{ color: 'white !important' }} /> : <AiOutlineMenu />}
         </div>
     </nav>
   )
