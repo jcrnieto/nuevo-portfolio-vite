@@ -48,7 +48,7 @@
         content: '';
         position: absolute;
         width: 100px;
-        background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(41, 109, 197));
+        background-image: linear-gradient(180deg, rgb(13, 11, 155), rgb(8, 54, 116));
         height: 130%;
         animation: rotBGimg 3s linear infinite;
         transition: all 0.2s linear;
