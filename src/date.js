@@ -1,7 +1,7 @@
 import cabania from "./media/cabaña.png";
 import placares from "./media/foto-placeres.png";
 import fundacion from "./media/img-fundacion.jpg";
-import recetas from "./media/img-recetas.png";
+import marketing from "./media/proyecto-marketing.jpg";
 import alarma from "./media/alarma.jpg";
 
 export const dateIcons = [
@@ -64,7 +64,7 @@ export const cardProyect = [
     id:2,
     proyect:"Fundación Uno",
     description:"Es un proyecto para una fundación que ayuda a merenderos, escuelitas de fútbol y tiene una orientación a la concientización sobre el medio ambiente y el bienestar en general. El desarrollo está realizado con React, Bootstrap y CSS. Utilizo Nodemailer para mandar los datos del formulario hacia la casilla de correo.",
-    url:"https://fundacion-uno.vercel.app/",
+    url:"https://fundacionuno.com.ar",
     img:fundacion
   },
   {
@@ -76,10 +76,10 @@ export const cardProyect = [
   },
   {
     id:4,
-    proyect:"Recetas",
-    description:"Desarrollé para el bootcamp Henry, una Single Page Application la cual consume información de una api externa (Spoonacular),como también de una base de datos. Las funcionalidades que ofrecen son: búsqueda por nombre, crear tu propia receta mediante un formulario controlado y filtrados: por tipo de dietas, alfabéticamente A a Z y viceversa y por puntuación",
-    url:"https://integrador-ayi-react.vercel.app/",
-    img:recetas
+    proyect:"Marketing",
+    description:"Proyecto realizado para un cliente de Marketing digital. el mismo lo va a utilizar para anexarlo a sus redes sociales y para hacer publicidad por medio de google ads, se encuentra actualmente en producción. En este caso decidí utilizar el framework Astro y los estilos con Tailwind css",
+    url:"https://astro-proyecto-prueba.vercel.app/",
+    img:marketing
   },
   {
     id:5,
@@ -105,7 +105,7 @@ export const service = [
   {
     id:2,
     title: "Sitio Web Empresa",
-    description:"Un sitio web tipo empresa con cuatro secciones es una presencia digital más completa que va más allá de una Landing Page. Este tipo de sitio web, basado en WordPress, generalmente consta de las siguientes secciones: Inicio/Página Principal: Brinda una visión general de la empresa, sus valores y servicios destacados. Acerca de Nosotros: Ofrece información detallada sobre la historia, el equipo y la misión de la empresa. Servicios/Productos: Describe los productos o servicios ofrecidos, con detalles, imágenes y, posiblemente, testimonios. Contacto: Proporciona información de contacto, como dirección, número de teléfono y un formulario para consultas. También puede incluir enlaces a redes sociales.",
+    description:"Un sitio web tipo empresa con cuatro secciones es una presencia digital más completa que va más allá de una Landing Page. Este tipo de sitio web, generalmente consta de las siguientes secciones: Inicio/Página Principal: Brinda una visión general de la empresa, sus valores y servicios destacados. Acerca de Nosotros: Ofrece información detallada sobre la historia, el equipo y la misión de la empresa. Servicios/Productos: Describe los productos o servicios ofrecidos, con detalles, imágenes y, posiblemente, testimonios. Contacto: Proporciona información de contacto, como dirección, número de teléfono y un formulario para consultas. También puede incluir enlaces a redes sociales.",
     dominio:"Dominio .com",
     certificado:"Certificado SSL",
     secciones:"4 secciones",
