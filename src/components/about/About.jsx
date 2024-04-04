@@ -1,6 +1,6 @@
 import "./about.css";
 import fotoPerfil from "../../media/fotoPerfil.jpg";
-import CV from '../../media/CV-Juan-Cruz-Nieto-dev.pdf';
+import CV from '../../media/CV-Juan-Cruz-Nieto-Dev.pdf';
 import { saveAs } from 'file-saver';
 import Cards from "../cards/Cards";
 import Aos from "aos";
